@@ -13,12 +13,13 @@ public class Account {
     }
 
     public void PrintAccount() {
-        System.out.println("Account info");
+        System.out.println("Account info"); // fix print
     }
 
     public static void main(String[] args) {
         Account account = new Account();
         Account account1 = new Account("Bou", 2033.89);
         account.PrintAccount();
+        account1.PrintAccount();
     }
 }
