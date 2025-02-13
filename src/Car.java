@@ -28,5 +28,4 @@ public class Car {
     public String toString() {
         return "\nMake: " + this.make + "\nModel: " + this.model + "\nYear: " + this.year;
     }
-
 }
